@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(34, 135, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 10vh;
+}
+
+#image {
+    display: block;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.button {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 100px;
+    height: 30PX;
+    border-radius: 100PX;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: 390px;
+    width: 390px;
+}
